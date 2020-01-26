@@ -22,7 +22,7 @@
 <body class="flex">
 <div class="content">
 
-    <h1>Ages</h1>
+    <h1>Age</h1>
     <div th:if="${age != null}">
         <!--/*@thymesVar id="age" type="apap.tutorial.hitungumur.model.Age"*/-->
         <h3 th:text="${#numbers.formatDecimal(age.mercurianYears(), 2, 0)} + ' Mercurian Years'"></h3>
